@@ -1,0 +1,16 @@
+[workspace]
+members = ["infra","core","handle","server"]
+
+[workspace.package]
+edition = "2021"
+authors = ["Teshin <1443965173@qq.com>"]
+repository = "https://github.com/woshihaoren4/dbpoly"
+keywords = ["dbpoly"]
+description = "db reverse proxy server"
+license = "MIT"
+readme = "README.md"
+
+[workspace.dependencies]
+wd_tools = {version = "0.8.12",features = ["point-free","sync"]}
+anyhow = "1.0.75"
+
