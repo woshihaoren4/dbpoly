@@ -12,3 +12,6 @@ readme.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow.workspace = true
+async-trait.workspace = true
+infra = {path = "../infra"}

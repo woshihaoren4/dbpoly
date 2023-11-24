@@ -12,8 +12,11 @@ readme.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio.workspace = true
 serde.workspace = true
 serde_json.workspace = true
 anyhow.workspace = true
 wd_tools.workspace = true
+wd_log.workspace = true
+async-trait.workspace = true
 wd_run = "0.4"
